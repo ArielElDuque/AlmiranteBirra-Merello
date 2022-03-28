@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../img/favicon.png">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Almirante Birra cervezas para navegar en el paladar</title>
+</head>
+<body>
+	<nav>
+		<a href="../index.html">
+			<h1>almirante birra</h1>
+		</a>
+		<ul>
+			<li><a href="../index.html">Nosotros</a></li>
+			<li><a href="la_fabrica.html">La fabrica</a></li>
+			<li><a href="estilos.html">Estilos</a></li>
+			<li><a href="valores.html">Valores</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="https://www.youtube.com/watch?v=gv5zJ5QJ6cI" target="blank">Fonden Blanken</a></li>
+		</ul>
+	</nav>
+	<header><img src="../img/birraPortada.jpg" alt="Estilos de cerveza del mundo" class="encabezadoImg"></header>
+	<main class="boxMain">
+		<section class="bgColor">
+			<h2>Contacto</h2>
+			 <article>
+				<h3>Deja tus datos y hace tu pedido</h3>
+				<!-- Empieza form -->
+				<form action="pedido.php" method="get">
+				 <fieldset>
+				    <legend>Datos personales</legend>
+				    <label for="nombre">Nombre y apellido</label>
+				    <input type="text" placeholder="Homero Simpson" name="nombre" id="nombre">
+				    <br>
+				    <label for="numero de tel">Numero de Tel</label>
+				    <input type="text" placeholder="15-12345678" name="numero de tel" id="numero de tel">
+				    <br>
+				    <label for="email">Email</label>
+				    <input type="text" placeholder="tumail@mail.com" name="email" id="email">
+				 </fieldset>
+				 <fieldset>
+				 	<legend>Informacion de pedidos</legend>
+				 	<legend>Tipos de cerveza</legend>
+
+				 	<label for="Ales">Ales</label>
+				 	<input type="checkbox" name="Ales" id="Ales" value="Ales">
+				 	<label for="Lagers">Lagers</label>
+				 	<input type="checkbox" name="Lagers" id="Lagers" value="Lagers">
+
+				 	<legend>Tipo de barril</legend>
+				 	<label for="b30">Barril de 30 lts</label>
+				 	<input type="radio" name="barril" id="b30" value="b30">
+				 	<br>
+				    <label for="b50">Barril de 50 lts</label>
+				 	<input type="radio" name="barril" id="b50" value="b50"> 	
+				 </fieldset>
+				 <fieldset>
+				 	<legend>Informacion de envio</legend>
+				 	<label for="envio">Retiro en el local</label>
+				 	<input type="radio" name="envio" id="envio" value="local">
+				 	<br>
+				 	<label for="domicilio">Envio a domicilio</label>
+				 	<input type="radio" name="envio" id="domicilio" value="domicilio">
+				 	<br>
+				 	<select name="localidad" id="localidad">
+				 		<option for="caba">CABA</option>
+				 		<option for="provincia">Provincia de Buenos Aires</option>
+				 		<option for="interior">Interior del pais</option>
+				 	</select>
+                 </fieldset>
+                 <br>
+                 <label for="aclaracion">Aclaraciones del pedio</label><br>
+                 <textarea name="aclaracion" id="aclaracion" cols="90" rows="10"></textarea>
+                 <br><br>
+                 <input type="reset" value="Cancelar">
+                 <input type="submit" value="Enviar">
+                 <input type="button" value="Agregar imagen/foto">
+				</form>
+				<!-- Termina Form -->
+             </article>
+		</section>
+	</main>
+	<footer class="pie">
+		<div class="gridPie">	
+		<h3 class="pieTitulo leyenda">Seguinos en Instagram y Youtube</h3>
+		<a href="https://instagram.com/" target="blank" class="iconIg iconPosIg">
+			<img src="../img/igicon.png" alt="Logo de instagram" class="pieIcon">
+		</a>		
+		
+		<a href="https://www.youtube.com/watch?v=gv5zJ5QJ6cI" target="blank" class="iconYt iconPosYt">
+			<img src="../img/youtube.png" alt="logo de youtube">
+			
+		</a>
+		</div>	
+	</footer>
+</body>
+</html>
