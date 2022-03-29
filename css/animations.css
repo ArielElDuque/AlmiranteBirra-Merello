@@ -1,0 +1,10 @@
+/*Animaciones*/
+
+.linearGradient{
+	background: linear-gradient(to right, rgba(40,40,40,1)15%, rgba(120,120,120,0.8)85%);
+} 
+
+.translate:hover{
+	transform: translateX(30px);
+	transition: 1s;
+}
