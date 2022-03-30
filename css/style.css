@@ -23,29 +23,21 @@ nav{
 	
 }
 
-nav ul{
-	display: flex;
-	justify-content:flex-end;
-	align-items: center;
-
-
-
-}
-	a,ul,li{
-		display: inline-block;
-
-
-	}
-		a{
+nav,a,ul,li{
 		font-family: 'Vollkorn', serif;
 		font-size: 2rem;
 		list-style: none;
 		text-decoration: none;
 		color: rgb(185,12,12);
-
-		
 	}
-
+	ul{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-content: center;
+	}
+		
 
 h1{
 	font-family: 'Vollkorn', serif;
