@@ -108,6 +108,29 @@ table{
 	background-color: rgba(255,233,167,0.9);
 }
 
+/*Nav de bootstrap*/
+
+.container-fluid{
+	background-color: rgba(255,233,167,0.9);
+}
+
+.navbar-brand{
+	font-family: 'Vollkorn', serif;
+	font-size: 4rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: rgb(185,12,12) !important;
+}
+
+
+.nav-link{
+		font-family: 'Vollkorn', serif;
+		font-size: 2rem;
+		list-style: none;
+		text-decoration: none;
+		color: rgb(185,12,12) !important;
+}
+
 /*Footer*/
 .pie {
 	background-color: rgba(120,120,120,0.9);
@@ -136,9 +159,7 @@ table{
 /*Box Model*/
 
 .boxMain{
-	height: 100%;
-	box-sizing: border-box;
-	border: solid 1rem rgba(255,51,51,0.7)
+	
 }
 
 /*Flex*/
@@ -204,6 +225,9 @@ table{
 
 .main{
 	grid-area: main;
+	height: 100%;
+	box-sizing: border-box;
+	border: solid 1rem rgba(255,51,51,0.7)
 }
 
 .footer{
