@@ -81,6 +81,9 @@ form{
 	font-weight: 400;
 	font-size: 1.8rem;
 	line-height: 2.8rem;
+	margin-left: 1rem;
+	padding-bottom: 2rem;
+
 }
 
 table{
@@ -109,9 +112,14 @@ table{
 }
 
 /*Nav de bootstrap*/
+.navbar{
+	padding: 0;
+	opacity: 90%;
+}
 
 .container-fluid{
 	background-color: rgba(255,233,167,0.9);
+
 }
 
 .navbar-brand{
@@ -214,8 +222,8 @@ table{
 }
 
 .nav{
-	grid-area: nav;
-		
+	grid-area: nav
+
 
 }
 
